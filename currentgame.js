@@ -11,7 +11,7 @@ const ListaCognitivas = [
     "fala",
     "pensamento",
     "dialago",
-    "sinapse neuronal"
+    "sinapse-neuronal"
 ];
 
 

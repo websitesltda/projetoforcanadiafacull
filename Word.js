@@ -5,6 +5,7 @@ export class Word {
     constructor(word) {
         this.characters = word.split("");
         this.boxes = this.characters.map(char => {return "_"});
+        console.log(this.boxes)
         this.mistakes = 0;
         this.corrects = 0;
         
@@ -12,7 +13,7 @@ export class Word {
         const currentWordDiv = document.querySelector("#current-word");
         currentWordDiv.innerHTML = "";
         this.boxes.forEach(box => {
-            currentWordDiv.innerHTML += `<span class="letter"></span>`
+            currentWordDiv.innerHTML += `<span class="letter">-</span>`
         });
         
         this.currentWordSpaces = document.querySelectorAll("#current-word .letter")
