@@ -13,6 +13,13 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+#title {
+    font-size: 36px;
+    margin: 0;
+    color: #fefefe;
+    font-family: 'Comic Neue', cursive;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -44,6 +51,7 @@ body{
     padding: 2px;
     margin-left: 2px;
     margin-right: 2px;
+    font-family: 'Comic Neue', cursive;
 }
 
 .letrasEspaco{
@@ -53,6 +61,7 @@ body{
     padding: 2px;
     margin-left: 2px;
     margin-right: 2px;
+    font-family: 'Comic Neue', cursive;
 }
 
 #teclado{
@@ -69,7 +78,7 @@ body{
     border-radius: 5px;
     border: 1px solid dimgrey;  
     color: #8b008b;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Comic Neue', cursive;
     font-weight: 900;
 }
 
@@ -85,6 +94,7 @@ body{
     margin-top: 30px;
     color: #8b008b;
     font-size: 1.2em;
+    font-family: 'Comic Neue', cursive;
 }
 
 #abreModalAddPalavra, #recarregar, #jogarAutomatico, #jogarNovamente{

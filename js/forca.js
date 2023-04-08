@@ -211,8 +211,24 @@ window.onclick = function(){
 function carregaListaAutomatica(){
     palavras = [
         palavra001 = {
-            nome: "IRLANDA",
-            categoria:"LUGARES"
+            nome: "LINGUA",
+            categoria:"LINGUAGEM COGNITIVA"
+        },
+        palavra002 = {
+            nome: "FALA",
+            categoria:"LINGUAGEM COGNITIVA"
+        },
+        palavra003 = {
+            nome: "PENSAMENTO",
+            categoria:"LINGUAGEM COGNITIVA"
+        },
+        palavra004 = {
+            nome: "DIALOGO",
+            categoria:"LINGUAGEM COGNITIVA"
+        },
+        palavra005 = {
+            nome: "SINAPSE NEURONAL",
+            categoria:"LINGUAGEM COGNITIVA"
         }
     ];
 }
