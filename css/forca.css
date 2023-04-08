@@ -97,6 +97,10 @@ body{
     font-family: 'Comic Neue', cursive;
 }
 
+.container_image{
+    display: flex;
+}
+
 #abreModalAddPalavra, #recarregar, #jogarAutomatico, #jogarNovamente{
     position: fixed;
     width: 70px;
