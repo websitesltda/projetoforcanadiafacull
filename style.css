@@ -22,7 +22,7 @@ a {
 #app {
     margin: 0px auto;
     padding: 15px;
-    max-width: 1200px;
+    max-width: 95%;
     height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
