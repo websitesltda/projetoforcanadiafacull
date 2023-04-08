@@ -43,10 +43,10 @@ export class Word {
         }
 
         if (this.mistakes == 6) {
-            gameAlert("You lose! :(")
+            gameAlert("Você perdeu! :(")
         } else {
             if (this.corrects == this.characters.length) {
-                gameAlert("You win! :)")
+                gameAlert("Você ganhou! :)")
             }
         }
     }
