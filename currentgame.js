@@ -6,105 +6,14 @@ const themeSelector = document.querySelector("#theme-selector");
 
 newGameButton.addEventListener("click", () => {themeSelector.classList.toggle("visible")})
 
-const listaFrutas = [
-    "abacaxi",
-    "laranja",
-    "banana",
-    "uva",
-    "morango",
-    "acerola",
-    "abacate",
-    "cacau",
-    "caqui",
-    "carambola"
+const ListaCognitivas = [
+    "linguagem",
+    "fala",
+    "pensamento",
+    "dialago",
+    "sinapse neuronal"
 ];
 
-const listaAnimais = [
-    "cachorro",
-    "elefante",
-    "gato",
-    "girafa",
-    "coelho",
-    "rato",
-    "cobra",
-    "camundongo",
-    "tartaruga",
-    "golfinho",
-    "rinoceronte"
-];
-
-const listaCores = [
-    "amarelo",
-    "vermelho",
-    "rosa",
-    "verde",
-    "azul",
-    "roxo",
-    "branco",
-    "preto",
-    "escarlate",
-    "cinza",
-    "ciano",
-    "magenta"
-];
-
-const listaEsportes = [
-    "futebol",
-    "esgrima",
-    "basquete",
-    "boxe",
-    "bocha",
-    "ciclismo",
-    "corrida",
-    "halterofilismo"
-]
-
-const listFruits = [
-    "apple",
-    "pear",
-    "grape",
-    "orange",
-    "strawberry",
-    "melon",
-    "watermelon"
-]
-
-const listAnimals = [
-    "dog",
-    "cat",
-    "mouse",
-    "elephant",
-    "snake",
-    "rabbit",
-    "bunny",
-    "turtle",
-    "turtoise",
-    "dolphin"
-]
-
-const listColors = [
-    "red",
-    "green",
-    "blue",
-    "cyan",
-    "magenta",
-    "yellow",
-    "black",
-    "white",
-    "gray",
-    "pink",
-    "orange",
-    "purple"
-]
-
-const listSports = [
-    "football",
-    "soccer",
-    "volleyball",
-    "basketball",
-    "golf",
-    "curling"
-]
 
 let themeButtons = document.querySelectorAll(".theme");
 

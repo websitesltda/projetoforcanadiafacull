@@ -11,10 +11,10 @@ function alert(alertText) {
 }
 
 if (currentWord.mistakes == 6) {
-    alert("You lose! :(")
+    alert("Você perdeu! :(")
 } else {
     if (currentWord.corrects == currentWord.characters.length) {
-        alert("You win! :)")
+        alert("Você ganhou! :)")
     }
 }
 
