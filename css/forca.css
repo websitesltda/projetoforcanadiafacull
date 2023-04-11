@@ -99,6 +99,8 @@ body{
 
 .container_image{
     display: flex;
+   margin-left: -300px;
+  
 }
 
 #abreModalAddPalavra, #recarregar, #jogarAutomatico, #jogarNovamente{
