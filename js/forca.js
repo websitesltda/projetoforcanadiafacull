@@ -30,7 +30,7 @@ function montarPalavraNaTela(){
         if(listaDinamica[i] == undefined){
             if (palavraSecretaSorteada[i] == " ") {
                 listaDinamica[i] = " ";
-                palavraTela.innerHTML = palavraTela.innerHTML + "<div class='letrasEspaco'>" + listaDinamica[i] + " -</div>"
+                palavraTela.innerHTML = palavraTela.innerHTML + "<div class='letrasEspaco'>" + listaDinamica[i] + "</div>"
             }
             else{
                 listaDinamica[i] = "&nbsp;"
@@ -40,7 +40,7 @@ function montarPalavraNaTela(){
         else{
             if (palavraSecretaSorteada[i] == " ") {
                 listaDinamica[i] = " ";
-                palavraTela.innerHTML = palavraTela.innerHTML + "<div class='letrasEspaco'>" + listaDinamica[i] + "-</div>"
+                palavraTela.innerHTML = palavraTela.innerHTML + "<div class='letrasEspaco'>" + listaDinamica[i] + "</div>"
             }
             else{
                 palavraTela.innerHTML = palavraTela.innerHTML + "<div class='letras'>" + listaDinamica[i] + "</div>"
@@ -211,7 +211,19 @@ window.onclick = function(){
 function carregaListaAutomatica(){
     palavras = [
         palavra001 = {
-            nome: "SEMANTICA COMUNICACAO FONETICA CORTEX",
+            nome: "SEMANTICA",
+            categoria:"FUNÇÕES COGNITIVAS - LINGUAGEM"
+        },
+        palavra001 = {
+            nome: "COMUNICACAO",
+            categoria:"FUNÇÕES COGNITIVAS - LINGUAGEM"
+        },
+        palavra001 = {
+            nome: "FONETICA",
+            categoria:"FUNÇÕES COGNITIVAS - LINGUAGEM"
+        },
+        palavra001 = {
+            nome: "CORTEX",
             categoria:"FUNÇÕES COGNITIVAS - LINGUAGEM"
         }
     ];
