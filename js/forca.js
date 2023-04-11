@@ -211,7 +211,7 @@ window.onclick = function(){
 function carregaListaAutomatica(){
     palavras = [
         palavra001 = {
-            nome: "SEMANTICA COMUNICACAO FONETICA  CORTEX",
+            nome: "SEMANTICA COMUNICACAO FONETICA CORTEX",
             categoria:"FUNÇÕES COGNITIVAS - LINGUAGEM"
         }
     ];
