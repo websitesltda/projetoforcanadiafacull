@@ -30,7 +30,7 @@ function montarPalavraNaTela(){
         if(listaDinamica[i] == undefined){
             if (palavraSecretaSorteada[i] == " ") {
                 listaDinamica[i] = " ";
-                palavraTela.innerHTML = palavraTela.innerHTML + "<div class='letrasEspaco'>" + listaDinamica[i] + "</div>"
+                palavraTela.innerHTML = palavraTela.innerHTML + "<div class='letrasEspaco'>" + listaDinamica[i] + " -</div>"
             }
             else{
                 listaDinamica[i] = "&nbsp;"
@@ -40,7 +40,7 @@ function montarPalavraNaTela(){
         else{
             if (palavraSecretaSorteada[i] == " ") {
                 listaDinamica[i] = " ";
-                palavraTela.innerHTML = palavraTela.innerHTML + "<div class='letrasEspaco'>" + listaDinamica[i] + "</div>"
+                palavraTela.innerHTML = palavraTela.innerHTML + "<div class='letrasEspaco'>" + listaDinamica[i] + "-</div>"
             }
             else{
                 palavraTela.innerHTML = palavraTela.innerHTML + "<div class='letras'>" + listaDinamica[i] + "</div>"
